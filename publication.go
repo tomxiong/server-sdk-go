@@ -48,6 +48,9 @@ func (p *trackPublicationBase) Kind() TrackKind {
 }
 
 func (p *trackPublicationBase) Track() Track {
+	p.lock.Lock()
+	defer p.lock.Unlock()
+
 	return p.track
 }
 

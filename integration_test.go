@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
 	"github.com/pion/webrtc/v3"
 	"github.com/stretchr/testify/require"
+	"github.com/tomxiong/protocol/livekit"
 	"go.uber.org/atomic"
 )
 

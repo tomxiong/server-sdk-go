@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/livekit/protocol/auth"
+	"github.com/tomxiong/protocol/auth"
 	"github.com/twitchtv/twirp"
 )
 

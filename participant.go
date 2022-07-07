@@ -5,7 +5,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/tomxiong/protocol/livekit"
 )
 
 type Participant interface {
